@@ -1,0 +1,447 @@
+{
+    "tops": [
+        {
+            "id": 1,
+            "image_a": "https://img.faballey.com/images/Product/TOP05689Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05689Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05689Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05689Z/d8.jpg",
+            "pro_name": "Orange Floral Halter Sunray Pleated Crop Top",
+            "strikeoffprice": 1300,
+            "price": 585,            
+            "off": 55       
+        },
+        {
+            "id": 2,
+            "image_a": "https://img.faballey.com/images/Product/DRS04291Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04291Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04291Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04291Z/d8.jpg",
+            "pro_name": "White Floral Strappy Ruffled Midi Dress",
+            "strikeoffprice": 2200,
+            "price": 990,            
+            "off": 55       
+        },
+        {
+            "id": 3,
+            "image_a": "https://img.faballey.com/images/Product/TOP04582Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP04582Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP04582Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP04582Z/d6.jpg",
+            "pro_name": "White Belted Halter Wrap Top",
+            "strikeoffprice": 1300,
+            "price": 585,            
+            "off": 55       
+        },
+        {
+            "id": 4,
+            "image_a": "https://img.faballey.com/images/Product/TOP06103D/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP06103D/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP06103D/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP06103D/d6.jpg",
+            "pro_name": "White Self Design Puff Sleeve Top",
+            "strikeffprice": 1700,
+            "price": 510,
+            "off": 70
+        },
+        {
+            "id": 5,
+            "image_a": "https://img.faballey.com/images/Product/DRS05107Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05107Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05107Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05107Z/d6.jpg",
+            "pro_name": "White Polka Side Tie Wrap Dress",
+            "strikeoffprice": 1950,
+            "price": 878,            
+            "off": 55       
+        },
+        {
+            "id": 6,
+            "image_a": "https://img.faballey.com/images/Product/TOP05913Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05913Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05913Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05913Z/d6.jpg",
+            "pro_name": "White Front Tie Smocked Sleeve Crop Shirt",
+            "strikeoffprice":"140",
+            "price":630,            "off":55       },
+        {
+            "id": 7,
+            "image_a": "https://img.faballey.com/images/Product/TOP05218Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05218Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05218Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05218Z/d6.jpg",
+            "pro_name": "Peach Multi Striped Waist Tie Up Top",
+            "strikeoffprice": 1400,
+            "price": 630,            
+            "off": 55       
+        },
+        {
+            "id": 8,
+            "image_a": "https://img.faballey.com/images/Product/DRS05091Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05091Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05091Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05091Z/d8.jpg",
+            "pro_name": "Off White Lace Strappy Trim Dress",
+            "strikeoffprice": 2200,
+            "price": 880,
+            "off": 60
+        },
+        {
+            "id": 9,
+            "image_a": "https://img.faballey.com/images/Product/DRS05712Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05712Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05712Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05712Z/d9.jpg",
+            "pro_name": "White Floral Print Ruffle Sleeve Maxi Dress",
+            "strikeoffprice": 3200,
+            "price": 1600,
+            "off": 50
+        },
+        {
+            "id": 10,
+            "image_a": "https://img.faballey.com/images/Product/DRS04044Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04044Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04044Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04044Z/d8.jpg",
+            "pro_name": "Blue White Floral Off Shoulder Dress",
+            "strikeoffprice": 2250,
+            "price": 675,
+            "off": 70
+        },
+        {
+            "id": 11,
+            "image_a": "https://img.faballey.com/images/Product/CTP00599D/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/CTP00599D/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/CTP00599D/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/CTP00599D/d8.jpg",
+            "pro_name": "CURVE White Floral Ruffled Sleeve Belted Top",
+            "strikeoffprice": 1600,
+            "price": 720,            
+            "off": 55       
+        },
+        {
+            "id": 12,
+            "image_a": "https://img.faballey.com/images/Product/TOP05862Z/d5.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05862Z/d6.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05862Z/d4.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05862Z/d3.jpg",
+            "pro_name": "Off White Self Ruffled Smocked Crop Top",
+            "strikeoffprice": 1600,
+            "price": 800,
+            "off": 50
+        },
+        {
+            "id": 13,
+            "image_a": "https://img.faballey.com/images/Product/DRS04743Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04743Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04743Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04743Z/d6.jpg",
+            "pro_name": "Multicolored Floral Belted Jumpsuit",
+            "strikeoffprice": 2500,
+            "price": 1100,
+            "off": 60
+        },
+        {
+            "id": 14,
+            "image_a": "https://img.faballey.com/images/Product/DRS04803Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04803Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04803Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04803Z/d6.jpg",
+            "pro_name": "Mustard Floral Wrap Self Fabric Dress",
+            "strikeoffprice": 2600,
+            "price": 1170,
+            "off": 55
+        },
+        {
+            "id": 15,
+            "image_a": "https://img.faballey.com/images/Product/TOP05672Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05672Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05672Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05672Z/d8.jpg",
+            "pro_name": "Yellow Floral Poplin Puff Sleeve Button Down Shirt",
+            "strikeoffprice": 1500,
+            "price": 750,
+            "off": 50
+        },
+        {
+            "id": 16,
+            "image_a": "https://img.faballey.com/images/Product/TOP02828A/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP02828A/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP02828A/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP02828A/d6.jpg",
+            "pro_name": "CLASSICS Bow Collar Top - Dusty Pink",
+            "strikeoffprice": 1300,
+            "price": 585,
+            "off": 55
+        },
+        {
+            "id": 17,
+            "image_a": "https://img.faballey.com/images/Product/DRS04797Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04797Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04797Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04797Z/d6.jpg",
+            "pro_name": "Dusty Pink Lace Asymmetric Hem Belted Dress",
+            "strikeoffprice": 2600,
+            "price": 1170,
+            "off": 55
+        },
+        {
+            "id": 18,
+            "image_a": "https://img.faballey.com/images/Product/DRS04794Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04794Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04794Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04794Z/d8.jpg",
+            "pro_name": "Pink Tie Dye Halter Neck Maxi Dress",
+            "strikeoffprice": 2700,
+            "price": 999,
+            "off": 63
+        },
+        {
+            "id": 19,
+            "image_a": "https://img.faballey.com/images/Product/DRS04835Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04835Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04835Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04835Z/d6.jpg",
+            "pro_name": "Hot Pink Ruffled Wrap Dress",
+            "strikeoffprice": 2200,
+            "price": 880,
+            "off": 60
+        },
+        {
+            "id": 20,
+            "image_a": "https://img.faballey.com/images/Product/DRS05253Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05253Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05253Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05253Z/d8.jpg",
+            "pro_name": "Blush Floral Waist Cut Out Dress",
+            "strikeoffprice": 2400,
+            "price": 720,
+            "off": 70
+        }
+    ],
+
+
+
+    "dresses": [
+        {
+            "id": 1,
+            "image_a": "https://img.faballey.com/images/Product/DRS04797Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04797Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04797Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04797Z/d6.jpg",
+            "pro_name": "Dusty Pink Lace Asymmetric Hem Belted Dress",
+            "strikeoffprice": 2600,
+            "price": 1170,
+            "off": 55
+        },
+        {
+            "id": 2,
+            "image_a": "https://img.faballey.com/images/Product/DRS05453Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05453Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05453Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05453Z/d8.jpg",
+            "pro_name": "Dark Green Polka Dot Midi Dress",
+            "strikeoffprice": 2800,
+            "price": 1120,
+            "off": 60
+        },
+        {
+            "id": 3,
+            "image_a": "https://img.faballey.com/images/Product/DRS05481Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05481Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05481Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05481Z/d8.jpg",
+            "pro_name": "Navy Blue One Shoulder Maxi Dress With Embellished Belt",
+            "strikeoffprice": 3450,
+            "price": 1380,
+            "off": 60
+        },
+        {
+            "id": 4,
+            "image_a": "https://img.faballey.com/images/Product/DRS04789Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04789Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04789Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04789Z/d6.jpg",
+            "pro_name": "Aqua Tie Dye Ruched Waist Maxi Dress",
+            "strikeoffprice": 2700,
+            "price": 1215,
+            "off": 55
+        },
+        {
+            "id": 5,
+            "image_a": "https://img.faballey.com/images/Product/DRS05092Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05092Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05092Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05092Z/d6.jpg",
+            "pro_name": "Blue Leaf Print Waist Cut Out Wrap Dress",
+            "strikeoffprice": 2200,
+            "price": 990,
+            "off": 55
+        },
+        {
+            "id": 6,
+            "image_a": "https://img.faballey.com/images/Product/TOP06724Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP06724Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP06724Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP06724Z/d8.jpg",
+            "pro_name": "Lilac Pleated Halter Neck Top",
+            "strikeoffprice": 2400,
+            "price": 1800,
+            "off": 25
+        },
+        {
+            "id": 7,
+            "image_a": "https://img.faballey.com/images/Product/DRS04352Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04352Z/d8.jpg",
+            "pro_name": "Blush Pleated Belted Halter Neck Dress",
+            "strikeoffprice": 2400,
+            "price": 912,
+            "off": 62
+        },
+        {
+            "id": 8,
+            "image_a": "https://img.faballey.com/images/Product/DRS04799Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04799Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04799Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04799Z/d8.jpg",
+            "pro_name": "Sea Foam Green Pleated Halter Embellished Neck Dress",
+            "strikeoffprice": 2300,
+            "price": 690,
+            "off": 70
+        },
+        {
+            "id": 9,
+            "image_a": "https://img.faballey.com/images/Product/DRS06164Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS06164Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS06164Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS06164Z/d6.jpg",
+            "pro_name": "Brown Front Tie Up Midi Dress",
+            "strikeoffprice": 2800,
+            "price": 1960,
+            "off": 30
+        },
+        {
+            "id": 10,
+            "image_a": "https://img.faballey.com/images/Product/DRS05173Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05173Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05173Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05173Z/d6.jpg",
+            "pro_name": "Multicolored Checked Tie Up Wrap Dress",
+            "strikeoffprice": 2100,
+            "price": 945,
+            "off": 55
+        },
+        {
+            "id": 11,
+            "image_a": "https://img.faballey.com/images/Product/DRS03910Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS03910Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS03910Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS03910Z/d8.jpg",
+            "pro_name": "Black White Tropical Tie Up Wrap Dress",
+            "strikeoffprice": 1950,
+            "price": 878,
+            "off": 55
+        },
+        {
+            "id": 12,
+            "image_a": "https://img.faballey.com/images/Product/DRS04352Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04352Z/d8.jpg",
+            "pro_name": "Blush Pleated Belted Halter Neck Dress",
+            "strikeoffprice": 2400,
+            "price": 912,
+            "off": 62
+        },
+        {
+            "id": 13,
+            "image_a": "https://img.faballey.com/images/Product/DRS04928Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04928Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04928Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04928Z/d6.jpg",
+            "pro_name": "Pink Floral Halter Jumpsuit",
+            "strikeoffprice": 2500,
+            "price": 900,
+            "off": 64
+        },
+        {
+            "id": 14,
+            "image_a": "https://img.faballey.com/images/Product/DRS04306Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04306Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04306Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04306Z/d8.jpg",
+            "pro_name": "Slate Blue Sleeveless Collared Belted Jumpsuit",
+            "strikeoffprice": 2200,
+            "price": 660,
+            "off": 70
+        },
+        {
+            "id": 15,
+            "image_a": "https://img.faballey.com/images/Product/DRS05859Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05859Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05859Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05859Z/d8.jpg",
+            "pro_name": "Teal Blue Printed Collared Dress With Belt",
+            "strikeoffprice": 3200,
+            "price": 2400,
+            "off": 25
+        },
+        {
+            "id": 16,
+            "image_a": "https://img.faballey.com/images/Product/DRS05434Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05434Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05434Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05434Z/d8.jpg",
+            "pro_name": "Grey Velvet Strappy Flared Dress",
+            "strikeoffprice": 2350,
+            "price": 940,
+            "off": 60
+        },
+        {
+            "id": 17,
+            "image_a": "https://img.faballey.com/images/Product/DRS05423Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05423Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05423Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05423Z/d6.jpg",
+            "pro_name": "Grey Shimmer Front Knot Dress",
+            "strikeoffprice": 2950,
+            "price": 885,
+            "off": 70
+        },
+        {
+            "id": 18,
+            "image_a": "https://img.faballey.com/images/Product/DRS05676Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05676Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05676Z/d6.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05676Z/d9.jpg",
+            "pro_name": "Gold Off Shoulder Bodycon Dress",
+            "strikeoffprice": 2500,
+            "price": 1000,
+            "off": 60
+        },
+        {
+            "id": 19,
+            "image_a": "https://img.faballey.com/images/Product/DRS04337Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04337Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04337Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04337Z/d8.jpg",
+            "pro_name": "Blue Crushed Embellished Waist Maxi Dress",
+            "strikeoffprice": 2800,
+            "price": 1400,
+            "off": 50
+        },
+        {
+            "id": 20,
+            "image_a": "https://img.faballey.com/images/Product/DRS05471Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS05471Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS05471Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS05471Z/d8.jpg",
+            "pro_name": "Dusty Pink Tulip Sleeve Maxi Dress With Embellished Belt",
+            "strikeoffprice": 2950,
+            "price": 1328,
+            "off": 55
+        }
+    ]
+}
