@@ -1,0 +1,145 @@
+#carousel-div {
+    width: 100%;
+    margin-top: 5px;
+}
+
+#carousel-div>a>img {
+    width: 100%;
+}
+
+#heading-div {
+    font-size: 25px;
+    font-weight: 700;
+    color: #323232;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 36px;
+}
+
+#trending-cat-img-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#trending-cat-img-div>div {
+    width: 31%;
+}
+
+#trending-cat-img-div>div>img {
+    width: 100%;
+}
+
+#hot-cat-div {
+    /* border: 2px solid red; */
+    margin: 0 15px 0 15px;
+
+}
+
+#hot-cat-div>a>img {
+    width: 100%;
+}
+
+#pro-div {
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 2px solid rgb(220, 157, 157); */
+}
+
+#pro-div>div {
+    margin-top: 20px;
+    width: 238px;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 5px;
+
+}
+
+#pro-div>div>a>img {
+    width: 100%;
+}
+
+#pro-div>div>a {
+    text-decoration: none;
+    color: #323232;
+}
+
+#pro-div>div>a>p {
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+#pro-div>div>a>p:nth-child(3) {
+    color: #ff6062;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+#img-text-div {
+    width: 97%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-text-div>div:nth-child(1) {
+    width: 60%;
+}
+
+#img-text-div>div:nth-child(2) {
+    width: 36%;
+}
+
+#img-text-div>div>img {
+    width: 100%;
+}
+
+#img-text-div>div>p:nth-child(1) {
+    font-size: 40px;
+    font-weight: 600;
+    color: #323232;
+    padding-right: 40px;
+}
+
+#img-text-div>div>p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 600;
+    color: #323232;
+    margin-top: 20px;
+    padding-right: 40px;
+    line-height: 30px;
+}
+#img-text-div > div > a > button {
+    padding: 16px 32px;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#bottom-div {
+    margin-top: 10px;
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#bottom-div > div {
+    width: 350px;
+    margin-top: 20px;
+}
+#bottom-div > div >a >img {
+    width: 100%;
+}
+#subheading-div {
+    color: #323232;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 35px;
+    margin-top: -20px;
+}
