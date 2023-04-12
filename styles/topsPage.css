@@ -111,8 +111,7 @@
 }
 
 #pro-card {
-    /* border: 1px solid blue; */
-    /* width: 50%; */
+    border: 1px solid #DCDCDC;
 }
 
 #pro-card>a>img {
@@ -198,4 +197,25 @@
 
 #bag-btn:hover {
     background-color: #f6456b;
+}
+#pagi-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#page-no {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 25px 0px 25px;
+}
+#previous {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#next {
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
