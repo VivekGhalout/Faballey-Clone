@@ -59,6 +59,14 @@
     align-items: center;
     text-align: center;
 }
+@media screen and (max-width: 400px) {
+    #nav-1-right>div:nth-child(1) {
+        display: none;
+    }
+    #nav-1-left {
+        display: none;
+    }
+}
 
 #nav-1-right>div>img {
     width: 65%;
@@ -207,7 +215,7 @@
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 621px) {
     .column {
         width: 100%;
         height: auto;
