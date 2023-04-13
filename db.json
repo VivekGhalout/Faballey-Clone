@@ -8,8 +8,8 @@
             "image_d": "https://img.faballey.com/images/Product/TOP05689Z/d8.jpg",
             "pro_name": "Orange Floral Halter Sunray Pleated Crop Top",
             "strikeoffprice": 1300,
-            "price": 585,            
-            "off": 55       
+            "price": 585,
+            "off": 55
         },
         {
             "id": 2,
@@ -19,8 +19,8 @@
             "image_d": "https://img.faballey.com/images/Product/DRS04291Z/d8.jpg",
             "pro_name": "White Floral Strappy Ruffled Midi Dress",
             "strikeoffprice": 2200,
-            "price": 990,            
-            "off": 55       
+            "price": 990,
+            "off": 55
         },
         {
             "id": 3,
@@ -30,8 +30,8 @@
             "image_d": "https://img.faballey.com/images/Product/TOP04582Z/d6.jpg",
             "pro_name": "White Belted Halter Wrap Top Beautiful Dress",
             "strikeoffprice": 1300,
-            "price": 585,            
-            "off": 55       
+            "price": 585,
+            "off": 55
         },
         {
             "id": 4,
@@ -52,8 +52,8 @@
             "image_d": "https://img.faballey.com/images/Product/DRS05107Z/d6.jpg",
             "pro_name": "White Polka Side Tie Wrap Beautiful Dress",
             "strikeoffprice": 1950,
-            "price": 878,            
-            "off": 55       
+            "price": 878,
+            "off": 55
         },
         {
             "id": 6,
@@ -62,8 +62,10 @@
             "image_c": "https://img.faballey.com/images/Product/TOP05913Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/TOP05913Z/d6.jpg",
             "pro_name": "White Front Tie Smocked Sleeve Crop Shirt",
-            "strikeoffprice":"140",
-            "price":630,            "off":55       },
+            "strikeoffprice": "140",
+            "price": 630,
+            "off": 55
+        },
         {
             "id": 7,
             "image_a": "https://img.faballey.com/images/Product/TOP05218Z/d3.jpg",
@@ -72,8 +74,8 @@
             "image_d": "https://img.faballey.com/images/Product/TOP05218Z/d6.jpg",
             "pro_name": "Peach Multi Striped Waist Tie Up Top",
             "strikeoffprice": 1400,
-            "price": 630,            
-            "off": 55       
+            "price": 630,
+            "off": 55
         },
         {
             "id": 8,
@@ -116,8 +118,8 @@
             "image_d": "https://img.faballey.com/images/Product/CTP00599D/d8.jpg",
             "pro_name": "CURVE White Floral Ruffled Sleeve Belted Top",
             "strikeoffprice": 1600,
-            "price": 720,            
-            "off": 55       
+            "price": 720,
+            "off": 55
         },
         {
             "id": 12,
@@ -217,11 +219,52 @@
             "strikeoffprice": 2400,
             "price": 720,
             "off": 70
+        },
+        {
+            "id": 21,
+            "image_a": "https://img.faballey.com/images/Product/TOP02485A/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP02485A/d5.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP02485A/d6.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP02485A/d7.jpg",
+            "pro_name": "Turtle Neck Maxi Top - Navy Beautiful Dress",
+            "strikeoffprice": 1600,
+            "price": 720,
+            "off": 55
+        },
+        {
+            "id": 22,
+            "image_a": "https://img.faballey.com/images/Product/TOP05776Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05776Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05776Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05776Z/d6.jpg",
+            "pro_name": "Pink Polka Pleated Collared Top With Belt",
+            "strikeoffprice": 1500,
+            "price": 600,
+            "off": 60
+        },
+        {
+            "id": 23,
+            "image_a": "https://img.faballey.com/images/Product/TOP05711Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP05711Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP05711Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP05711Z/d8.jpg",
+            "pro_name": "Orange Floral Frilled Puff Sleeve Smocked Peplum Top",
+            "strikeoffprice": 1500,
+            "price": 675,
+            "off": 55
+        },
+        {
+            "id": 24,
+            "image_a": "https://img.faballey.com/images/Product/TOP06038Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/TOP06038Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/TOP06038Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/TOP06038Z/d6.jpg",
+            "pro_name": "Blue Wrap Polka Tie Up Crop Top Beautiful Dress",
+            "strikeoffprice": 1600,
+            "price": 720,
+            "off": 55
         }
     ],
-
-
-
     "dresses": [
         {
             "id": 1,
@@ -229,7 +272,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04797Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04797Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04797Z/d6.jpg",
-            "pro_name": "Dusty Pink Lace Asymmetric Hem Belted Dress",
+            "pro_name": "Dusty Pink Beautiful Lace Asymmetric Hem Belted Dress",
             "strikeoffprice": 2600,
             "price": 1170,
             "off": 55
@@ -240,7 +283,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05453Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05453Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05453Z/d8.jpg",
-            "pro_name": "Dark Green Polka Dot Midi Dress",
+            "pro_name": "Dark Green Polka Dot Midi Beautiful Dress",
             "strikeoffprice": 2800,
             "price": 1120,
             "off": 60
@@ -262,7 +305,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04789Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04789Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04789Z/d6.jpg",
-            "pro_name": "Aqua Tie Dye Ruched Waist Maxi Dress",
+            "pro_name": "Aqua Tie Dye Ruched Waist Beautiful Maxi Dress",
             "strikeoffprice": 2700,
             "price": 1215,
             "off": 55
@@ -273,7 +316,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05092Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05092Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05092Z/d6.jpg",
-            "pro_name": "Blue Leaf Print Waist Cut Out Wrap Dress",
+            "pro_name": "Blue Leaf Print Waist Cut Out Wrap Beautiful Dress",
             "strikeoffprice": 2200,
             "price": 990,
             "off": 55
@@ -284,7 +327,7 @@
             "image_b": "https://img.faballey.com/images/Product/TOP06724Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP06724Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/TOP06724Z/d8.jpg",
-            "pro_name": "Lilac Pleated Halter Neck Top",
+            "pro_name": "Lilac Pleated Halter Neck Top Beautiful Dress",
             "strikeoffprice": 2400,
             "price": 1800,
             "off": 25
@@ -295,7 +338,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04352Z/d8.jpg",
-            "pro_name": "Blush Pleated Belted Halter Neck Dress",
+            "pro_name": "Blush Pleated Belted Halter Beautiful Neck Dress",
             "strikeoffprice": 2400,
             "price": 912,
             "off": 62
@@ -317,7 +360,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS06164Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS06164Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS06164Z/d6.jpg",
-            "pro_name": "Brown Front Tie Up Midi Dress",
+            "pro_name": "Brown Front Tie Up Midi Beautiful Dress",
             "strikeoffprice": 2800,
             "price": 1960,
             "off": 30
@@ -328,7 +371,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05173Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05173Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05173Z/d6.jpg",
-            "pro_name": "Multicolored Checked Tie Up Wrap Dress",
+            "pro_name": "Multicolored Checked Beautiful Tie Up Wrap Dress",
             "strikeoffprice": 2100,
             "price": 945,
             "off": 55
@@ -339,7 +382,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS03910Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS03910Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS03910Z/d8.jpg",
-            "pro_name": "Black White Tropical Tie Up Wrap Dress",
+            "pro_name": "Black White Beautiful Tropical Tie Up Wrap Dress",
             "strikeoffprice": 1950,
             "price": 878,
             "off": 55
@@ -350,7 +393,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04352Z/d8.jpg",
-            "pro_name": "Blush Pleated Belted Halter Neck Dress",
+            "pro_name": "Blush Pleated Belted Halter Neck Beautiful Dress",
             "strikeoffprice": 2400,
             "price": 912,
             "off": 62
@@ -361,7 +404,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04928Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04928Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04928Z/d6.jpg",
-            "pro_name": "Pink Floral Halter Jumpsuit",
+            "pro_name": "Pink Floral Halter Jumpsuit Beautiful Dress",
             "strikeoffprice": 2500,
             "price": 900,
             "off": 64
@@ -383,7 +426,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05859Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05859Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05859Z/d8.jpg",
-            "pro_name": "Teal Blue Printed Collared Dress With Belt",
+            "pro_name": "Teal Blue Printed Collared Beautiful Dress With Belt",
             "strikeoffprice": 3200,
             "price": 2400,
             "off": 25
@@ -394,7 +437,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05434Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05434Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05434Z/d8.jpg",
-            "pro_name": "Grey Velvet Strappy Flared Dress",
+            "pro_name": "Grey Velvet Strappy Flared Beautiful Dress",
             "strikeoffprice": 2350,
             "price": 940,
             "off": 60
@@ -405,7 +448,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05423Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05423Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05423Z/d6.jpg",
-            "pro_name": "Grey Shimmer Front Knot Dress",
+            "pro_name": "Grey Shimmer Beautiful Front Knot Dress",
             "strikeoffprice": 2950,
             "price": 885,
             "off": 70
@@ -416,7 +459,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS05676Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05676Z/d6.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS05676Z/d9.jpg",
-            "pro_name": "Gold Off Shoulder Bodycon Dress",
+            "pro_name": "Gold Off Shoulder Beautiful Bodycon Dress",
             "strikeoffprice": 2500,
             "price": 1000,
             "off": 60
@@ -427,7 +470,7 @@
             "image_b": "https://img.faballey.com/images/Product/DRS04337Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04337Z/d5.jpg",
             "image_d": "https://img.faballey.com/images/Product/DRS04337Z/d8.jpg",
-            "pro_name": "Blue Crushed Embellished Waist Maxi Dress",
+            "pro_name": "Blue Crushed Embellished Waist Maxi Beautiful Dress",
             "strikeoffprice": 2800,
             "price": 1400,
             "off": 50
@@ -442,6 +485,50 @@
             "strikeoffprice": 2950,
             "price": 1328,
             "off": 55
+        },
+        {
+            "id": 21,
+            "image_a": "https://img.faballey.com/images/Product/DRS04825Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04825Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04825Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04825Z/d6.jpg",
+            "pro_name": "Pink Floral Halter Back Tie Maxi Beautiful Dress",
+            "strikeoffprice": 2800,
+            "price": 1036,
+            "off": 63
+        },
+        {
+            "id": 22,
+            "image_a": "https://img.faballey.com/images/Product/DRS04386Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS04386Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS04386Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS04386Z/d8.jpg",
+            "pro_name": "Maroon Floral Lurex Halter Neck Maxi Dress",
+            "strikeoffprice": 2800,
+            "price": 1260,
+            "off": 55
+        },
+        {
+            "id": 23,
+            "image_a": "https://img.faballey.com/images/Product/DRS02907Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/DRS02907Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/DRS02907Z/d6.jpg",
+            "image_d": "https://img.faballey.com/images/Product/DRS02907Z/d5.jpg",
+            "pro_name": "BASICS Maroon Halter Maxi Beautiful Dress With Belt",
+            "strikeoffprice": 1800,
+            "price": 810,
+            "off": 55
+        },
+        {
+            "id": 24,
+            "image_a": "https://img.faballey.com/images/Product/ITP01146Z/d3.jpg",
+            "image_b": "https://img.faballey.com/images/Product/ITP01146Z/d4.jpg",
+            "image_c": "https://img.faballey.com/images/Product/ITP01146Z/d5.jpg",
+            "image_d": "https://img.faballey.com/images/Product/ITP01146Z/d6.jpg",
+            "pro_name": "Grey Sequin Blouse with Attached Beautiful Dupatta",
+            "strikeoffprice": 1900,
+            "price": 950,
+            "off": 50
         }
     ]
 }
