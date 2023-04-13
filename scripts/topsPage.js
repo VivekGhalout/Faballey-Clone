@@ -1,4 +1,4 @@
-import {navbar, offerdiv} from '../components/navbar.js'
+import { navbar, offerdiv } from '../components/navbar.js'
 
 let navbarContainer = document.getElementById('nav-header');
 navbarContainer.innerHTML = navbar();
@@ -6,24 +6,29 @@ navbarContainer.innerHTML = navbar();
 let offerContainer = document.getElementById('offer-nav');
 offerContainer.innerHTML = offerdiv();
 
-let apiUrl = `https://database-mi7j.onrender.com/tops`;
+let page = 1;
 
-async function getData(apiUrl) {
+async function getData() {
+
+    let apiUrl = `https://database-mi7j.onrender.com/tops?_page=${page}&_limit=12`;
     try {
         let response = await fetch(apiUrl);
         let data = await response.json();
         console.log(data);
         displayData(data);
+        document.getElementById("page-no").innerHTML = page + "...";
     } catch (error) {
         console.log(error)
     }
 }
-getData(apiUrl);
+getData();
 
 function displayData(data) {
 
+    document.getElementById("top-images").innerHTML = "";
+
     data.forEach(ele => {
-        
+
         let proCard = document.createElement("div");
         proCard.setAttribute("id", "pro-card");
 
@@ -31,6 +36,9 @@ function displayData(data) {
 
         let proImg = document.createElement("img");
         proImg.src = ele.image_a;
+        proImg.addEventListener("click", function() {
+            pro_discrip(ele);
+        })
 
         ancor.append(proImg);
 
@@ -55,7 +63,7 @@ function displayData(data) {
 
         let deleImg = document.createElement("img");
         deleImg.src = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBpZD0idHJ1Y2stZmFzdC1zb2xpZCIgZD0iTTUyOCwwYTQ4LjAxMiw0OC4wMTIsMCwwLDEsNDgsNDhWOTZoNDhhMTYsMTYsMCwwLDEsMCwzMkgzNjhhMTYsMTYsMCwwLDAsMCwzMkg1OTJhMTYsMTYsMCwwLDEsMCwzMkg0MDBhMTYsMTYsMCwwLDAsMCwzMkg2MjRhMTYsMTYsMCwwLDEsMCwzMkg0MzJhMTYsMTYsMCwxLDAsMCwzMkg1NzZWNDE2YTk2LDk2LDAsMCwxLTE5MiwwSDI1NmE5Niw5NiwwLDEsMS0xOTIsMEgzMmEzMiwzMiwwLDEsMSwwLTY0VjIzNy4zQTY0LjAyMiw2NC4wMjIsMCwwLDEsNTAuNywxOTJMMTI4LDExNC43QTY0LjAyMiw2NC4wMjIsMCwwLDEsMTczLjMsOTZIMjI0VjQ4QTQ4LjAxMiw0OC4wMTIsMCwwLDEsMjcyLDBaTTk2LDIzNy4zVjI1NkgyMjRWMTYwSDE3My4zWk00ODAsNDY0YTQ4LDQ4LDAsMSwwLTQ4LTQ4QTQ4LjAxMiw0OC4wMTIsMCwwLDAsNDgwLDQ2NFpNMTEyLDQxNmE0OCw0OCwwLDEsMCw0OC00OEE0OC4wMTIsNDguMDEyLDAsMCwwLDExMiw0MTZaIi8+PC9zdmc+"
-
+        
         deleP.append(deleImg);
         deleP.innerHTML = "EXPRESS | ";
 
@@ -85,4 +93,106 @@ function displayData(data) {
 
         document.getElementById("top-images").append(proCard);
     });
+}
+
+let previous = () => {
+
+    if (page === 1) {
+        document.getElementById("previous").disabled = true;
+        return;
+    }
+    page--;
+    getData();
+}
+
+let next = () => {
+
+    if (page === 2) {
+        document.getElementById("next").disabled = true;
+        return;
+    }
+    page++;
+    getData();
+}
+
+document.getElementById("previous").addEventListener("click", previous);
+document.getElementById("next").addEventListener("click", next);
+
+let sortData = async () => {
+    let sortValue = document.getElementById("filter").value;
+    // console.log(sortValue)
+    if (sortValue === "Name") {
+        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=pro_name&_order=asc&_limit=12`;
+        try {
+            let response = await fetch(apiUrl2);
+            let data = await response.json();
+            console.log(data);
+            displayData(data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    else if (sortValue === "htl") {
+        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=price&_order=desc&_limit=12`;
+        try {
+            let response = await fetch(apiUrl2);
+            let data = await response.json();
+            console.log(data);
+            displayData(data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    else if (sortValue === "lth") {
+        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=price&_order=asc&_limit=12`;
+        try {
+            let response = await fetch(apiUrl2);
+            let data = await response.json();
+            console.log(data);
+            displayData(data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    else if (sortValue === "Discount") {
+        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=off&_order=desc&_limit=12`;
+        try {
+            let response = await fetch(apiUrl2);
+            let data = await response.json();
+            console.log(data);
+            displayData(data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    else if (sortValue === "New Arrivals") {
+        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=id&_order=desc&_limit=12`;
+        try {
+            let response = await fetch(apiUrl2);
+            let data = await response.json();
+            console.log(data);
+            displayData(data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
+    else if (sortValue === "") {
+        getData();
+    }
+
+
+}
+
+
+document.getElementById("filter").addEventListener("change", sortData)
+
+var details = JSON.parse(localStorage.getItem("iteam_details2"));
+
+if(details.length === 0) {
+    localStorage.setItem("iteam_details2", JSON.stringify(details));
+}
+
+function pro_discrip(ele) {
+    localStorage.setItem("iteam_details2", JSON.stringify(ele));
+    location.href = "../pages/proDiscription.html";
 }

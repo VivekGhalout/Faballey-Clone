@@ -116,6 +116,7 @@
 
 #pro-card>a>img {
     width: 100%;
+    cursor: pointer;
 }
 
 #pro-card>p {
