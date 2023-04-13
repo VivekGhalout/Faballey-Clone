@@ -234,7 +234,7 @@ const navbar = () => {
             </div>
             <div id="search-div">
                 <form>
-                    <input type="text" name="search" placeholder="">
+                    <input type="text" name="search" placeholder="" id="nav-input">
                 </form>
             </div>
         </nav>

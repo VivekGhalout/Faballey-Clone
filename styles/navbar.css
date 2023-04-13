@@ -238,7 +238,7 @@
 
 /* DROPDOWN--CSS END*/
 
-input[type=text] {
+#nav-input[type=text] {
     width: 50px;
     box-sizing: border-box;
     border: none;
@@ -254,7 +254,7 @@ input[type=text] {
     transition: width 0.4s ease-in-out;
 }
 
-input[type=text]:focus {
+#nav-input[type=text]:focus {
     width: 250px;
     outline: none;
     border-radius: 3px;

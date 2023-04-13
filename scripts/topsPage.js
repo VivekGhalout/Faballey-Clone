@@ -64,13 +64,13 @@ function displayData(data) {
         let deleImg = document.createElement("img");
         deleImg.src = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48cGF0aCBpZD0idHJ1Y2stZmFzdC1zb2xpZCIgZD0iTTUyOCwwYTQ4LjAxMiw0OC4wMTIsMCwwLDEsNDgsNDhWOTZoNDhhMTYsMTYsMCwwLDEsMCwzMkgzNjhhMTYsMTYsMCwwLDAsMCwzMkg1OTJhMTYsMTYsMCwwLDEsMCwzMkg0MDBhMTYsMTYsMCwwLDAsMCwzMkg2MjRhMTYsMTYsMCwwLDEsMCwzMkg0MzJhMTYsMTYsMCwxLDAsMCwzMkg1NzZWNDE2YTk2LDk2LDAsMCwxLTE5MiwwSDI1NmE5Niw5NiwwLDEsMS0xOTIsMEgzMmEzMiwzMiwwLDEsMSwwLTY0VjIzNy4zQTY0LjAyMiw2NC4wMjIsMCwwLDEsNTAuNywxOTJMMTI4LDExNC43QTY0LjAyMiw2NC4wMjIsMCwwLDEsMTczLjMsOTZIMjI0VjQ4QTQ4LjAxMiw0OC4wMTIsMCwwLDEsMjcyLDBaTTk2LDIzNy4zVjI1NkgyMjRWMTYwSDE3My4zWk00ODAsNDY0YTQ4LDQ4LDAsMSwwLTQ4LTQ4QTQ4LjAxMiw0OC4wMTIsMCwwLDAsNDgwLDQ2NFpNMTEyLDQxNmE0OCw0OCwwLDEsMCw0OC00OEE0OC4wMTIsNDguMDEyLDAsMCwwLDExMiw0MTZaIi8+PC9zdmc+"
         
-        deleP.append(deleImg);
+        // deleP.append(deleImg);
         deleP.innerHTML = "EXPRESS | ";
 
         let deleP2 = document.createElement("p");
         deleP2.innerHTML = "3 Day Delivery";
 
-        delevDiv.append(deleP, deleP2);
+        delevDiv.append(deleImg, deleP, deleP2);
 
         let btnDiv = document.createElement("div");
         btnDiv.setAttribute("id", "btn-div");

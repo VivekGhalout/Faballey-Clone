@@ -1,0 +1,365 @@
+#pro-path {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+}
+
+#mid-div {
+    width: 100%;
+    border-bottom: 1px solid #DCDCDC;
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
+#pro-path>p {
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #707070;
+    padding: 10px 10px 10px 0px;
+}
+
+#pro-disc-div {
+    /* border: 2px solid black; */
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pro-img-div {
+    /* border: 1.5px solid red; */
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+@media screen and (max-width: 821px) {
+    #pro-img-div {
+        border: 1.5px solid red;
+        height: 660px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #pro-img-div {
+        border: 1.5px solid red;
+        height: 320px;
+    }
+}
+
+#pro-img>img {
+    width: 100%;
+}
+
+#pro-details-div {
+    /* border: 1.5px solid red; */
+    width: 35%;
+}
+
+#pro-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #4d4c4c;
+    letter-spacing: 1px;
+    padding-right: 15px;
+}
+
+#price-div {
+    display: flex;
+}
+
+#price-div>p:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 5px 5px 0px;
+    color: #323232;
+}
+
+#price-div>p:nth-child(2) {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 5px 5px 5px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+#price-div>p:nth-child(3) {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 13px 0px 5px 5px;
+    color: #FC6486;
+}
+
+#pro-details-div>p:nth-child(3) {
+    font-size: 14px;
+    /* font-weight: 600; */
+    color: #03BB5C;
+}
+
+#pro-details-div>p:nth-child(4) {
+    font-size: 12px;
+    font-weight: 700;
+    color: #999999;
+    padding: 15px 0px 7px 0px;
+}
+
+#delevery-div {
+    display: flex;
+    align-items: center;
+    /* margin-top: 5px; */
+    /* padding-left: 10px; */
+
+}
+
+#delevery-div>p {
+    font-size: 13px;
+    font-weight: 600;
+    color: #323232;
+}
+
+#delevery-div>p:nth-child(2) {
+    padding: 0px 0px 0px 5px;
+}
+
+#delevery-div>p:nth-child(3) {
+    padding: 2px 0px 0px 10px;
+}
+
+#delevery-div>img {
+    width: 20px;
+}
+
+#size-div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#size-div1>p:nth-child(1) {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #323232;
+    line-height: 17px;
+}
+
+#size-div1>p:nth-child(2) {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #323232;
+    text-decoration: underline;
+    padding: 5px 15px 0px 0px;
+}
+
+#size-div2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#size-div2>p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #b9b9b9;
+    border: 1px solid #b9b9b9;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+#btn-div {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin-top: 40px;
+}
+
+#atc-btn {
+    height: 50px;
+    width: 55%;
+    color: white;
+    background-color: #FC6486;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+}
+
+#atc-btn:hover {
+    background-color: #fb4970;
+}
+
+#wish-btn {
+    height: 50px;
+    width: 40%;
+    color: #474747;
+    background-color: white;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: 1px solid #DCDCDC;
+    cursor: pointer;
+}
+
+#wish-btn>img {
+    width: 13px;
+}
+
+#delev_opt {
+    margin-top: 30px;
+}
+
+#loc_img {
+    width: 40px;
+    padding-left: 20px;
+}
+
+#address {
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+
+#check {
+    font-weight: 600;
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    background-color: white;
+    color: #fc2779;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#pincode {
+    width: 80%;
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    font-weight: bolder;
+    border: none;
+}
+
+#pincode:focus {
+    outline: none;
+}
+
+#address>img {
+    width: 20px;
+}
+
+.d_pincode>div {
+    width: 97%;
+    border: 1px solid rgb(215, 215, 215);
+    padding: 18px 10px 18px 10px;
+}
+
+#cod-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 15px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#cod-div>button {
+    width: 32%;
+    padding: 7px 0px;
+    background-color: white;
+    border: 1px solid #DCDCDC;
+}
+
+#cod-div>button>img {
+    width: 20px;
+    padding: 0px 0px 0px 5px;
+}
+
+#disc-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 20px 0px;
+    margin-top: 30px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+#disc-div>p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#disc-div>img {
+    width: 15px;
+    height: 15px;
+}
+
+#disc-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 20px 0px;
+    margin-top: 20px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+#social-icon>img {
+    width: 45px;
+    padding: 20px 10px 0px 0px;
+}
+
+@media screen and (max-width: 400px) {
+
+    #cod-div,
+    #disc-div,
+    #social-icon,
+    #size-div2,
+    #size-div1 {
+        display: none;
+    }
+}
+
+#heading-div {
+    font-size: 25px;
+    font-weight: 700;
+    color: #323232;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 36px;
+}
+
+#pro-div {
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#pro-div>div {
+    margin-top: 20px;
+    width: 238px;
+    background-color: rgb(248, 248, 248);
+    padding-bottom: 5px;
+
+}
+
+#pro-div>div>a>img {
+    width: 100%;
+}
+
+#pro-div>div>a {
+    text-decoration: none;
+    color: #323232;
+}
+
+#pro-div>div>a>p {
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+#pro-div>div>a>p:nth-child(3) {
+    color: #ff6062;
+    font-weight: 600;
+    padding-left: 5px;
+}

@@ -160,12 +160,15 @@
 }
 
 #delevery-div>p:nth-child(2) {
+    padding: 0px 0px 0px 5px;
+}
+
+#delevery-div>p:nth-child(3) {
     padding: 2px 0px 0px 10px;
 }
 
-#delevery-div>p>img {
-    width: 25px;
-    padding-right: 5px;
+#delevery-div>img {
+    width: 20px;
 }
 
 #btn-div {
