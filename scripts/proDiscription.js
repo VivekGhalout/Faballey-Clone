@@ -118,6 +118,10 @@ function display_Pro(ele) {
     let atcBtn = document.createElement("button");
     atcBtn.setAttribute("id", "atc-btn");
     atcBtn.textContent = "ADD TO CARD";
+    atcBtn.addEventListener("click" , () => {
+        addToCartFunc(ele)
+    });
+
     let wishBtn = document.createElement("button");
     wishBtn.setAttribute("id", "wish-btn");
     let wishImg = document.createElement("img");
@@ -228,6 +232,34 @@ function display_Pro(ele) {
 
 display_Pro(ele);
 
+let cartArr = JSON.parse(localStorage.getItem("toCart")) || [];
+
+let checkCart = (data) => {
+    let isExist = false
+    cartArr.forEach(cIteams => {
+        if(cIteams.id == data.id) {
+            isExist = true
+        }
+    })
+    return isExist;
+}
+
+let addToCartFunc = (ele) => {
+    let atcbtn =  document.getElementById("atc-btn");
+    console.log(checkCart(ele))
+    if(checkCart(ele)) {
+        ele.qty++;
+        localStorage.setItem("toCart", JSON.stringify(cartArr))
+        atcbtn.style.backgroundColor = "green";
+        alert("Increased Item Quantity")
+    }
+    else {
+        cartArr.push(ele)
+        localStorage.setItem("toCart", JSON.stringify(cartArr))
+        atcbtn.style.backgroundColor = "green";
+        // alert("Item Added Successfully")
+    }
+}
 async function pincodeFunc() {
     let pincode = document.getElementById('pincode').value;
     let res = await fetch(`https://api.postalpincode.in/pincode/${pincode}`);

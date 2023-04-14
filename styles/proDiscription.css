@@ -37,17 +37,23 @@
     gap: 25px;
 }
 
-@media screen and (max-width: 821px) {
+@media screen and (max-width: 900px) {
     #pro-img-div {
-        border: 1.5px solid red;
+        /* border: 1.5px solid red; */
         height: 660px;
     }
 }
 
 @media screen and (max-width: 400px) {
     #pro-img-div {
-        border: 1.5px solid red;
-        height: 320px;
+        /* border: 1.5px solid red; */
+        height: 300px;
+    }
+}
+@media screen and (max-width: 750px) {
+    #pro-img-div {
+        /* border: 1.5px solid red; */
+        height: 300px;
     }
 }
 

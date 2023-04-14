@@ -86,6 +86,9 @@ function displayData(data) {
         let bagBtn = document.createElement("button");
         bagBtn.setAttribute("id", "bag-btn");
         bagBtn.textContent = "ADD TO BAG";
+        bagBtn.addEventListener("click" , () => {
+            addToCartFunc(ele)
+        });
 
         btnDiv.append(wishBtn, bagBtn);
 
@@ -93,6 +96,35 @@ function displayData(data) {
 
         document.getElementById("top-images").append(proCard);
     });
+}
+
+let cartArr = JSON.parse(localStorage.getItem("toCart")) || [];
+
+let checkCart = (data) => {
+    let isExist = false
+    cartArr.forEach(cIteams => {
+        if(cIteams.id == data.id) {
+            isExist = true
+        }
+    })
+    return isExist;
+}
+
+let addToCartFunc = (ele) => {
+    // let bagBtn =  document.getElementById("bag-btn");
+    console.log(checkCart(ele))
+    if(checkCart(ele)) {
+        ele.qty++;
+        localStorage.setItem("toCart", JSON.stringify(cartArr))
+        // bagBtn.style.backgroundColor = "green";
+        alert("Increased Item Quantity")
+    }
+    else {
+        cartArr.push(ele)
+        localStorage.setItem("toCart", JSON.stringify(cartArr))
+        // bagBtn.style.backgroundColor = "green";
+        alert("Item Added Successfully")
+    }
 }
 
 let previous = () => {
