@@ -2,6 +2,9 @@
     "tops": [
         {
             "id": 1,
+            "qty": 1,
+            "size": "M",
+            "colour": "Orange",
             "image_a": "https://img.faballey.com/images/Product/TOP05689Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05689Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05689Z/d5.jpg",
@@ -14,6 +17,9 @@
         },
         {
             "id": 2,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/DRS04291Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04291Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04291Z/d5.jpg",
@@ -26,6 +32,9 @@
         },
         {
             "id": 3,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/TOP04582Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP04582Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP04582Z/d5.jpg",
@@ -38,6 +47,9 @@
         },
         {
             "id": 4,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/TOP06103D/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP06103D/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP06103D/d5.jpg",
@@ -50,6 +62,9 @@
         },
         {
             "id": 5,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/DRS05107Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05107Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05107Z/d5.jpg",
@@ -62,6 +77,9 @@
         },
         {
             "id": 6,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/TOP05913Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05913Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05913Z/d5.jpg",
@@ -74,6 +92,9 @@
         },
         {
             "id": 7,
+            "qty": 1,
+            "size": "M",
+            "colour": "Peach",
             "image_a": "https://img.faballey.com/images/Product/TOP05218Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05218Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05218Z/d5.jpg",
@@ -86,6 +107,9 @@
         },
         {
             "id": 8,
+            "qty": 1,
+            "size": "M",
+            "colour": "Off White",          
             "image_a": "https://img.faballey.com/images/Product/DRS05091Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05091Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05091Z/d5.jpg",
@@ -98,6 +122,9 @@
         },
         {
             "id": 9,
+            "qty": 1,
+            "size": "M",
+            "colour": "White",
             "image_a": "https://img.faballey.com/images/Product/DRS05712Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05712Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05712Z/d5.jpg",
@@ -110,6 +137,9 @@
         },
         {
             "id": 10,
+            "qty": 1,
+            "size": "M",
+            "colour": "Blue White",          
             "image_a": "https://img.faballey.com/images/Product/DRS04044Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04044Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04044Z/d5.jpg",
@@ -122,6 +152,9 @@
         },
         {
             "id": 11,
+            "qty": 1,
+            "size": "XL",
+            "colour": "Curve White",       
             "image_a": "https://img.faballey.com/images/Product/CTP00599D/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/CTP00599D/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/CTP00599D/d5.jpg",
@@ -134,6 +167,9 @@
         },
         {
             "id": 12,
+            "qty": 1,
+            "size": "M",
+            "colour": "Off White",
             "image_a": "https://img.faballey.com/images/Product/TOP05862Z/d5.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05862Z/d6.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05862Z/d4.jpg",
@@ -146,6 +182,9 @@
         },
         {
             "id": 13,
+            "qty": 1,
+            "size": "M",
+            "colour": "Multicolored",
             "image_a": "https://img.faballey.com/images/Product/DRS04743Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04743Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04743Z/d5.jpg",
@@ -158,6 +197,9 @@
         },
         {
             "id": 14,
+            "qty": 1,
+            "size": "M",
+            "colour": "Mustard",
             "image_a": "https://img.faballey.com/images/Product/DRS04803Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04803Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04803Z/d5.jpg",
@@ -170,6 +212,9 @@
         },
         {
             "id": 15,
+            "qty": 1,
+            "size": "M",
+            "colour": "Yellow",
             "image_a": "https://img.faballey.com/images/Product/TOP05672Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05672Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05672Z/d5.jpg",
@@ -182,6 +227,9 @@
         },
         {
             "id": 16,
+            "qty": 1,
+            "size": "M",
+            "colour": "Dusty Pink",
             "image_a": "https://img.faballey.com/images/Product/TOP02828A/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP02828A/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP02828A/d5.jpg",
@@ -194,6 +242,9 @@
         },
         {
             "id": 17,
+            "qty": 1,
+            "size": "S",
+            "colour": "Dusty Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04797Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04797Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04797Z/d5.jpg",
@@ -206,6 +257,9 @@
         },
         {
             "id": 18,
+            "qty": 1,
+            "size": "XS",
+            "colour": "Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04794Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04794Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04794Z/d5.jpg",
@@ -218,6 +272,9 @@
         },
         {
             "id": 19,
+            "qty": 1,
+            "size": "L",
+            "colour": "Hot Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04835Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04835Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04835Z/d5.jpg",
@@ -230,6 +287,9 @@
         },
         {
             "id": 20,
+            "qty": 1,
+            "size": "M",
+            "colour": "Blush",
             "image_a": "https://img.faballey.com/images/Product/DRS05253Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05253Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05253Z/d5.jpg",
@@ -242,6 +302,9 @@
         },
         {
             "id": 21,
+            "qty": 1,
+            "size": "S",
+            "colour": "Navy",
             "image_a": "https://img.faballey.com/images/Product/TOP02485A/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP02485A/d5.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP02485A/d6.jpg",
@@ -254,6 +317,9 @@
         },
         {
             "id": 22,
+            "qty": 1,
+            "size": "M",
+            "colour": "Pink",
             "image_a": "https://img.faballey.com/images/Product/TOP05776Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05776Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05776Z/d5.jpg",
@@ -266,6 +332,9 @@
         },
         {
             "id": 23,
+            "qty": 1,
+            "size": "XS",
+            "colour": "Orange",
             "image_a": "https://img.faballey.com/images/Product/TOP05711Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP05711Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP05711Z/d5.jpg",
@@ -278,6 +347,9 @@
         },
         {
             "id": 24,
+            "qty": 1,
+            "size": "L",
+            "colour": "Blue",
             "image_a": "https://img.faballey.com/images/Product/TOP06038Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP06038Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP06038Z/d5.jpg",
@@ -295,6 +367,9 @@
     "dresses": [
         {
             "id": 1,
+            "qty": 1,
+            "size": "M",
+            "colour": "usty Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04797Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04797Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04797Z/d5.jpg",
@@ -307,6 +382,9 @@
         },
         {
             "id": 2,
+            "qty": 1,
+            "size": "S",
+            "colour": "Dark Green",
             "image_a": "https://img.faballey.com/images/Product/DRS05453Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05453Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05453Z/d5.jpg",
@@ -319,6 +397,9 @@
         },
         {
             "id": 3,
+            "qty": 1,
+            "size": "M",
+            "colour": "Navy Blue",
             "image_a": "https://img.faballey.com/images/Product/DRS05481Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05481Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05481Z/d5.jpg",
@@ -331,6 +412,9 @@
         },
         {
             "id": 4,
+            "qty": 1,
+            "size": "S",
+            "colour": "Aqua",
             "image_a": "https://img.faballey.com/images/Product/DRS04789Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04789Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04789Z/d5.jpg",
@@ -343,6 +427,9 @@
         },
         {
             "id": 5,
+            "qty": 1,
+            "size": "L",
+            "colour": "Blue",
             "image_a": "https://img.faballey.com/images/Product/DRS05092Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05092Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05092Z/d5.jpg",
@@ -355,6 +442,9 @@
         },
         {
             "id": 6,
+            "qty": 1,
+            "size": "M",
+            "colour": "Lilac",
             "image_a": "https://img.faballey.com/images/Product/TOP06724Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/TOP06724Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/TOP06724Z/d5.jpg",
@@ -367,6 +457,9 @@
         },
         {
             "id": 7,
+            "qty": 1,
+            "size": "L",
+            "colour": "Blush",
             "image_a": "https://img.faballey.com/images/Product/DRS04352Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
@@ -379,6 +472,9 @@
         },
         {
             "id": 8,
+            "qty": 1,
+            "size": "M",
+            "colour": "Sea Foam Green",
             "image_a": "https://img.faballey.com/images/Product/DRS04799Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04799Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04799Z/d5.jpg",
@@ -391,6 +487,9 @@
         },
         {
             "id": 9,
+            "qty": 1,
+            "size": "M",
+            "colour": "Brown",
             "image_a": "https://img.faballey.com/images/Product/DRS06164Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS06164Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS06164Z/d5.jpg",
@@ -403,6 +502,9 @@
         },
         {
             "id": 10,
+            "qty": 1,
+            "size": "XS",
+            "colour": "Multicolored",
             "image_a": "https://img.faballey.com/images/Product/DRS05173Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05173Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05173Z/d5.jpg",
@@ -415,6 +517,9 @@
         },
         {
             "id": 11,
+            "qty": 1,
+            "size": "M",
+            "colour": "Black White",
             "image_a": "https://img.faballey.com/images/Product/DRS03910Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS03910Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS03910Z/d5.jpg",
@@ -427,6 +532,9 @@
         },
         {
             "id": 12,
+            "qty": 1,
+            "size": "S",
+            "colour": "Blush",
             "image_a": "https://img.faballey.com/images/Product/DRS04352Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04352Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04352Z/d5.jpg",
@@ -439,6 +547,9 @@
         },
         {
             "id": 13,
+            "qty": 1,
+            "size": "L",
+            "colour": "Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04928Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04928Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04928Z/d5.jpg",
@@ -451,6 +562,9 @@
         },
         {
             "id": 14,
+            "qty": 1,
+            "size": "M",
+            "colour": "Slate Blue",
             "image_a": "https://img.faballey.com/images/Product/DRS04306Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04306Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04306Z/d5.jpg",
@@ -463,6 +577,9 @@
         },
         {
             "id": 15,
+            "qty": 1,
+            "size": "L",
+            "colour": "Teal Blue",
             "image_a": "https://img.faballey.com/images/Product/DRS05859Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05859Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05859Z/d5.jpg",
@@ -475,6 +592,9 @@
         },
         {
             "id": 16,
+            "qty": 1,
+            "size": "M",
+            "colour": "Grey",
             "image_a": "https://img.faballey.com/images/Product/DRS05434Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05434Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05434Z/d5.jpg",
@@ -487,6 +607,9 @@
         },
         {
             "id": 17,
+            "qty": 1,
+            "size": "M",
+            "colour": "Grey",
             "image_a": "https://img.faballey.com/images/Product/DRS05423Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05423Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05423Z/d5.jpg",
@@ -499,6 +622,9 @@
         },
         {
             "id": 18,
+            "qty": 1,
+            "size": "S",
+            "colour": "Gold",
             "image_a": "https://img.faballey.com/images/Product/DRS05676Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05676Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05676Z/d6.jpg",
@@ -511,6 +637,9 @@
         },
         {
             "id": 19,
+            "qty": 1,
+            "size": "S",
+            "colour": "Blue",
             "image_a": "https://img.faballey.com/images/Product/DRS04337Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04337Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04337Z/d5.jpg",
@@ -523,6 +652,9 @@
         },
         {
             "id": 20,
+            "qty": 1,
+            "size": "M",
+            "colour": "Dusty Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS05471Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS05471Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS05471Z/d5.jpg",
@@ -535,6 +667,9 @@
         },
         {
             "id": 21,
+            "qty": 1,
+            "size": "M",
+            "colour": "Pink",
             "image_a": "https://img.faballey.com/images/Product/DRS04825Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04825Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04825Z/d5.jpg",
@@ -547,6 +682,9 @@
         },
         {
             "id": 22,
+            "qty": 1,
+            "size": "L",
+            "colour": "Maroon",
             "image_a": "https://img.faballey.com/images/Product/DRS04386Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS04386Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS04386Z/d5.jpg",
@@ -559,6 +697,9 @@
         },
         {
             "id": 23,
+            "qty": 1,
+            "size": "XL",
+            "colour": "Basic Maroon",
             "image_a": "https://img.faballey.com/images/Product/DRS02907Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/DRS02907Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/DRS02907Z/d6.jpg",
@@ -571,6 +712,9 @@
         },
         {
             "id": 24,
+            "qty": 1,
+            "size": "M",
+            "colour": "Grey",
             "image_a": "https://img.faballey.com/images/Product/ITP01146Z/d3.jpg",
             "image_b": "https://img.faballey.com/images/Product/ITP01146Z/d4.jpg",
             "image_c": "https://img.faballey.com/images/Product/ITP01146Z/d5.jpg",
