@@ -231,3 +231,6 @@ function pro_discrip(ele) {
     localStorage.setItem("iteam_details2", JSON.stringify(ele));
     location.href = "../pages/proDiscription.html";
 }
+
+document.getElementById("log").innerHTML = "Hi There.."
+document.getElementById("sign").innerHTML = "";

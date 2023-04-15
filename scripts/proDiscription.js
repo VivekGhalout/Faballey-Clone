@@ -272,3 +272,6 @@ async function pincodeFunc() {
     Delivery Within 2 Days${"\n"}Cash on Delivery available on orders above ₹499${"\n"}`;
 
 }
+
+document.getElementById("log").innerHTML = "Hi There.."
+document.getElementById("sign").innerHTML = "";

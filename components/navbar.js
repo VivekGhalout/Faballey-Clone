@@ -16,8 +16,8 @@ const navbar = () => {
                 <div>
                     <a href="#">Track Order</a>
                     <a href="#"> Store Locator</a>
-                    <a href="Login.html">Login</a>
-                    <a href="Register.html">Sign up</a>
+                    <a href="Login.html" id="log">Login</a>
+                    <a href="Register.html" id="sign">Sign up</a>
                     <a href="cart.html"><img src="https://img.icons8.com/ios/1x/shopping-bag.png" alt=""></a>
                 </div>
             </div>
