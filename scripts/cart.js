@@ -149,7 +149,7 @@ function check() {
         localStorage.setItem("cartvalue", sum);
         document.getElementById("promo").value = "";
     }
-    
-    
-
 }
+document.getElementById("order-btn").addEventListener("click", () => {
+    location.href = "../pages/address.html"
+})

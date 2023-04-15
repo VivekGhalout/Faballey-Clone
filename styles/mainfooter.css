@@ -1,0 +1,131 @@
+* {
+    font-family: sans-serif;
+}
+
+#main-footer {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgba(245, 245, 245, 0.588);
+}
+
+#foo-top-div {
+    display: flex;
+    border-bottom: 1px solid #DCDCDC;
+    border-top: 1px solid #DCDCDC;
+
+}
+
+#foo-top-div>div:nth-child(1) {
+    width: 80%;
+}
+
+#foo-top-div>div:nth-child(1)>img {
+    width: 100%;
+}
+
+#foo-top-div>div:nth-child(2) {
+    width: 20%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#foo-top-div>div:nth-child(2)>div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 850px) {
+    #foo-top-div>div:nth-child(2) {
+        width: 40%;
+    }
+
+    #foo-top-div>div:nth-child(1) {
+        width: 60%;
+    }
+}
+
+#sub-head>p {
+    font-size: 15px;
+    font-weight: 500;
+    color: #5d5d5d;
+}
+
+#heading {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#foo-sec-div,
+#foo-third-div,
+#foo-fourth-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* padding-bottom: 20px; */
+    border-bottom: 1px solid #DCDCDC;
+    padding: 0px 20px 20px 20px;
+}
+
+#foo-sec-mid-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#foo-sec-div>div:nth-child(1) {
+    width: 26%;
+    padding-left: 20px;
+    border-right: 1px solid #DCDCDC;
+
+}
+
+#foo-sec-div>div:nth-child(2) {
+    width: 37%;
+    border-right: 1px solid #DCDCDC;
+}
+
+#foo-sec-div>div:nth-child(3) {
+    width: 37%;
+    text-align: center;
+}
+
+#foo-sec-div>div:nth-child(3)>div>input {
+    padding: 10px 20px;
+    border: 1px solid #DCDCDC;
+}
+
+#foo-sec-div>div:nth-child(3)>div>button {
+    padding: 10px 5px;
+    border: 1px solid #DCDCDC;
+    color: white;
+    font-weight: 550;
+    background-color: rgb(53, 53, 53);
+}
+
+#foo-third-div>div:nth-child(1) {
+    width: 30%;
+    border-right: 1px solid #DCDCDC;
+}
+
+#foo-third-div>div:nth-child(2) {
+    width: 30%;
+    border-right: 1px solid #DCDCDC;
+}
+
+#foo-third-div>div:nth-child(3) {
+    width: 30%;
+    text-align: center;
+}
+
+#foo-bottom-div {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5d5d5d;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 15px 0px;
+}

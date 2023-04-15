@@ -6,7 +6,7 @@ const navbar = () => {
                     <img src="https://static.faballey.com/images/indya/indblk.png?v=11.39" alt="">
                 </div>
                 <div>
-                    <a href=""><img src="https://static.faballey.com/images/indya/fabwht.png?v=11.39" alt=""></a>
+                    <a href="index.html"><img src="https://static.faballey.com/images/indya/fabwht.png?v=11.39" alt=""></a>
                 </div>
             </div>
             <div id="nav-1-right">
@@ -14,17 +14,17 @@ const navbar = () => {
                     <img src="https://img.faballey.com/images/luxelogo3blk.png" alt="">
                 </div>
                 <div>
-                    <a href="">Track Order</a>
-                    <a href=""> Store Locator</a>
-                    <a href="">Login</a>
-                    <a href="">Sign up</a>
-                    <a href=""><img src="https://img.icons8.com/ios/1x/shopping-bag.png" alt=""></a>
+                    <a href="#">Track Order</a>
+                    <a href="#"> Store Locator</a>
+                    <a href="Login.html">Login</a>
+                    <a href="Register.html">Sign up</a>
+                    <a href="cart.html"><img src="https://img.icons8.com/ios/1x/shopping-bag.png" alt=""></a>
                 </div>
             </div>
         </nav>
         <nav id="nav-2">
             <div id="logo-div">
-                <a href=""><img src="https://static.faballey.com/images/logo.png?v=11.39" alt=""></a>
+                <a href="index.html"><img src="https://static.faballey.com/images/logo.png?v=11.39" alt=""></a>
             </div>
             <div class="navbar">
                 <div class="dropdown">
@@ -84,8 +84,8 @@ const navbar = () => {
                         <div class="row">
                             <div id="inner-div">
                                 <div class="column">
-                                    <a href="#">Tops</a>
-                                    <a href="#">Dresses</a>
+                                    <a href="topsPage.html">Tops</a>
+                                    <a href="dressPage.html">Dresses</a>
                                     <a href="#">Co-ords</a>
                                     <a href="#">Skirts</a>
                                     <a href="#">Bottoms</a>
@@ -255,4 +255,121 @@ const offerdiv = () => {
     `
 }
 
-export { navbar, offerdiv };
+const main_footer = () => {
+    return `
+    <div id="foo-top-div">
+            <div>
+                <img src="https://img.faballey.com/images/membership-desktop2.png" alt="">
+            </div>
+            <div id="heading">
+                <p>DOWNLOAD THE APP</p>
+                <div>
+                    <img src="https://static.faballey.com/images/glplay.png?v=11.40" alt="">
+                    <img src="https://static.faballey.com/images/appstore.png?v=11.40" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="foo-sec-div">
+            <div id="sub-head">
+                <div id="heading">
+                    <p>COMPANY</p>
+                </div>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Contact Us</p>
+                <p>FabAlley CSR</p>
+                <p>Gift Cards</p>
+            </div>
+            <div>
+                <div id="heading">
+                    <p>Help</p>
+                </div>
+                <div id="foo-sec-mid-div">
+                    <div id="sub-head">
+                        <p>Order Status</p>
+                        <p>Returns & Exchange</p>
+                        <p>International Orders</p>
+                        <p>Terms And Conditions</p>
+                        <p>Privacy Policy</p>
+                        <p>Investor Relations</p>
+                        <p>Responsible</p>
+                    </div>
+                    <div id="sub-head">
+                        <p>FAQs</p>
+                        <p>Cancellation policy</p>
+                        <p>Shipping Policy</p>
+                        <p>Ordering & Payment</p>
+                        <p>Size Guide</p>
+                        <p> Wholesale Enquiry</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="heading">
+                    <p>NEWSLETTER SIGNUP</p>
+                </div>
+                <div style="margin-top: 20px;">
+                    <input type="text" placeholder="Enter Email Address">
+                    <button>SUBSCRIBE</button>
+                </div>
+                <div id="heading">
+                    <p style="margin-top: 40px;">CONNECT WITH US</p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div id="foo-third-div">
+            <div id="sub-head">
+                <div id="heading">
+                    <p>HEAD OFFICE ADDRESS:</p>
+                </div>
+                <p>High Street Essentials Pvt Ltd</p>
+                <p>C-11, Sector 7, Noida, UP- 201301, India</p>
+                <p>Customer Care: +91-8929987349 / 0120-6850262</p>
+            </div>
+            <div id="sub-head">
+                <div id="heading">
+                    <p>RETURN ADDRESS:</p>
+                </div>
+                <p>High Street Essentials Pvt Ltd</p>
+                <p>Plot No-1C/2, Sector 16,</p>
+                <p>Greater Noida(West), Gautam Buddha</p>
+                <p>Nagar, UP - 201306, India</p>
+            </div>
+            <div>
+                <div id="heading">
+                    <p>PAYMENT METHODS</p>
+                </div>
+                <div>
+                    <img src="https://static.faballey.com/images/patmentimg.png?v=11.40" alt="">
+                </div>
+
+            </div>
+
+        </div>
+        <div id="foo-fourth-div">
+            <div id="sub-head">
+                <div id="heading">
+                    <p style="text-align: left;">POPULAR SEARCHES:</p>
+                </div>
+                <p style="line-height: 30px; letter-spacing: 1px;">New Arrivals | Western | Clothing | Tops | Dresses | Skirts | Bottoms | Denim | Jackets &
+                    Blazers | Shrugs | Curve | Accessories | Sale | Party Wear | Work Wear | Vacation Wear | Casual Wear | Crop Tops | Maxi Tops | Off
+                    Shoulder Tops | Cold Shoulder Tops | Ruffled Tops | Bell Sleeve Tops | Floral Tops | Maxi Dresses | Skater Dresses | Mini
+                    Dresses | Off Shoulder Dresses | Cold Shoulder Dresses | Floral Dresses | LBD | Jumpsuits | Plus Size Dresses | Plus Size
+                    Tops | Winter Wear | Leggings | Jeggings | Women's Loungewear | Wholesale Enquiries</p>
+            </div>
+        </div>
+        <div id="foo-bottom-div">
+            <p>© 2023 FabAlley.com. All Rights Reserved</p>
+        </div>
+    `
+}
+
+export { navbar, offerdiv, main_footer };

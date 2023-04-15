@@ -25,7 +25,7 @@
     width: 31%;
 }
 
-#trending-cat-img-div>div>img {
+#trending-cat-img-div>div> a >img {
     width: 100%;
 }
 

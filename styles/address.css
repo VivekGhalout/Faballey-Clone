@@ -223,6 +223,9 @@
     font-size: 15px;
     color: #4A4A4A;
 }
+#form-div>div>div>input:focus {
+    outline: none;
+}
 
 #form-div>div {
     width: 100%;
@@ -233,6 +236,9 @@
 #form-div>div> #address-input {
     border: 1px solid #DCDCDC;
     padding: 10px;
+}
+#form-div>div> #address-input:focus {
+    outline: none;
 }
 
 #delev-btn {

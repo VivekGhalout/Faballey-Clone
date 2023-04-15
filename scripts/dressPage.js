@@ -13,7 +13,7 @@ let page = 1;
 
 async function getData() {
 
-    let apiUrl = `https://database-mi7j.onrender.com/tops?_page=${page}&_limit=12`;
+    let apiUrl = `https://database-mi7j.onrender.com/dresses?_page=${page}&_limit=12`;
     try {
         let response = await fetch(apiUrl);
         let data = await response.json();
@@ -157,7 +157,7 @@ let sortData = async () => {
     let sortValue = document.getElementById("filter").value;
     // console.log(sortValue)
     if (sortValue === "Name") {
-        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=pro_name&_order=asc&_limit=12`;
+        let apiUrl2 = `https://database-mi7j.onrender.com/dresses?_sort=pro_name&_order=asc&_limit=12`;
         try {
             let response = await fetch(apiUrl2);
             let data = await response.json();
@@ -168,7 +168,7 @@ let sortData = async () => {
         }
     }
     else if (sortValue === "htl") {
-        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=price&_order=desc&_limit=12`;
+        let apiUrl2 = `https://database-mi7j.onrender.com/dresses?_sort=price&_order=desc&_limit=12`;
         try {
             let response = await fetch(apiUrl2);
             let data = await response.json();
@@ -179,7 +179,7 @@ let sortData = async () => {
         }
     }
     else if (sortValue === "lth") {
-        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=price&_order=asc&_limit=12`;
+        let apiUrl2 = `https://database-mi7j.onrender.com/dresses?_sort=price&_order=asc&_limit=12`;
         try {
             let response = await fetch(apiUrl2);
             let data = await response.json();
@@ -190,7 +190,7 @@ let sortData = async () => {
         }
     }
     else if (sortValue === "Discount") {
-        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=off&_order=desc&_limit=12`;
+        let apiUrl2 = `https://database-mi7j.onrender.com/dresses?_sort=off&_order=desc&_limit=12`;
         try {
             let response = await fetch(apiUrl2);
             let data = await response.json();
@@ -201,7 +201,7 @@ let sortData = async () => {
         }
     }
     else if (sortValue === "New Arrivals") {
-        let apiUrl2 = `https://database-mi7j.onrender.com/tops?_sort=id&_order=desc&_limit=12`;
+        let apiUrl2 = `https://database-mi7j.onrender.com/dresses?_sort=id&_order=desc&_limit=12`;
         try {
             let response = await fetch(apiUrl2);
             let data = await response.json();
