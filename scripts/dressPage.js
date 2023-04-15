@@ -233,5 +233,5 @@ function pro_discrip(ele) {
 }
 
 
-document.getElementById("log").innerHTML = "Hi There.."
+document.getElementById("log").innerHTML = "Hi There.";
 document.getElementById("sign").innerHTML = "";
