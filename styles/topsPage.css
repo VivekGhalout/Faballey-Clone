@@ -205,6 +205,7 @@
 #pagi-div {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -222,4 +223,8 @@
     border: none;
     background-color: white;
     cursor: pointer;
+}
+#previous > img, #next > img {
+    width: 30px;
+    padding-top: 10px;
 }
