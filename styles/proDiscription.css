@@ -37,32 +37,13 @@
     gap: 25px;
 }
 
-@media screen and (max-width: 900px) {
-    #pro-img-div {
-        /* border: 1.5px solid red; */
-        height: 660px;
-    }
-}
 
-@media screen and (max-width: 400px) {
-    #pro-img-div {
-        /* border: 1.5px solid red; */
-        height: 300px;
-    }
-}
-@media screen and (max-width: 750px) {
-    #pro-img-div {
-        /* border: 1.5px solid red; */
-        height: 300px;
-    }
-}
 
 #pro-img>img {
     width: 100%;
 }
 
 #pro-details-div {
-    /* border: 1.5px solid red; */
     width: 35%;
 }
 
@@ -76,6 +57,7 @@
 
 #price-div {
     display: flex;
+    flex-wrap: wrap;
 }
 
 #price-div>p:nth-child(1) {
@@ -115,9 +97,8 @@
 
 #delevery-div {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    /* margin-top: 5px; */
-    /* padding-left: 10px; */
 
 }
 
@@ -165,7 +146,7 @@
 #size-div2 {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #size-div2>p {
@@ -175,10 +156,12 @@
     border: 1px solid #b9b9b9;
     padding: 15px;
     margin-right: 10px;
+    margin-top: 10px;
 }
 
 #btn-div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-right: 15px;
     margin-top: 40px;
@@ -226,14 +209,12 @@
 }
 
 #address {
-    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
     color: gray;
     font-weight: 600;
 }
 
 #check {
     font-weight: 600;
-    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
     background-color: white;
     color: #fc2779;
     outline: none;
@@ -315,17 +296,6 @@
     padding: 20px 10px 0px 0px;
 }
 
-@media screen and (max-width: 400px) {
-
-    #cod-div,
-    #disc-div,
-    #social-icon,
-    #size-div2,
-    #size-div1 {
-        display: none;
-    }
-}
-
 #heading-div {
     font-size: 25px;
     font-weight: 700;
@@ -368,4 +338,158 @@
     color: #ff6062;
     font-weight: 600;
     padding-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+    #pro-img-div {
+        /* border: 1.5px solid red; */
+        height: 660px;
+    }
+}
+
+/* ---------------------
+Small Screen :- 
+--------------------- */
+
+@media screen and (max-width: 400px) {
+    #pro-img-div {
+        height: 300px;
+    }
+    #pro-name {
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        padding-right: 5px;
+    }
+
+    #price-div>p:nth-child(1) {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    #price-div>p:nth-child(2) {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    #price-div>p:nth-child(3) {
+        font-size: 13px;
+        padding: 0px 0px 5px 0px;
+    }
+
+    #delevery-div {
+        display: none;
+    
+    }
+
+    #size-div1 {
+        margin-top: 0px;
+    }
+
+    #size-div2 {
+        margin-top: 0px;
+    }
+    
+    #size-div1>p:nth-child(2) {
+        letter-spacing: 0.5px;
+        padding: 2px 10px 0px 0px;
+    }
+    
+    #size-div2>p {
+        font-size: 12px;
+        padding: 8px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    #btn-div {
+        padding-right: 5px;
+        margin-top: 15px;
+    }
+
+    #atc-btn {
+        height: 35px;
+        width: 80%;
+        margin: auto;
+        letter-spacing: 0.5px;
+        border: none;
+    }
+
+    #wish-btn {
+        height: 35px;
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    #delev_opt {
+        margin-top: 15px;
+    }
+    
+    #loc_img {
+        width: 20px;
+        padding-left: 5px;
+    }
+
+    #address {
+        font-size: 11px;
+    }
+    
+    #check {
+        font-size: 13px;
+    }
+    
+    #pincode {
+        width: 90%;
+    }
+    
+    #address>img {
+        width: 15px;
+    }
+    
+    .d_pincode>div {
+        width: 97%;
+        border: 1px solid rgb(215, 215, 215);
+        padding: 5px;
+        margin-top: 5px;
+    }
+
+    #cod-div {
+        display: none;
+    }
+    
+    #disc-div>p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    #disc-div>img {
+        width: 15px;
+        height: 15px;
+    }
+    
+    #disc-div {
+        padding: 0px 10px 5px 5px;
+        margin-top: 20px;
+        border-bottom: 1px solid #DCDCDC;
+    }
+    
+    #social-icon>img {
+        width: 30px;
+        padding: 10px 10px 0px 0px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 750px) {
+    #pro-img-div {
+        /* border: 1.5px solid red; */
+        height: 300px;
+    }
 }

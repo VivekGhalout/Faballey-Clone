@@ -405,3 +405,25 @@ p {
 #right-div-bottom>p:nth-child(2) {
     padding-top: 10px;
 }
+
+@media screen and (max-width: 400px) {
+    #email-div, #logo-div {
+        display: none;
+    }
+    #cart-item-div {
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: auto;
+    }
+    #right-cart-item-div {
+        width: 100%;
+        padding: 10px 5px 5px 5px;
+        /* border: 2px solid brown; */
+    }
+    #left-cart-item-div {
+        width: 100%;
+        padding: 10px;
+        /* border: 2px solid brown; */
+    }
+}

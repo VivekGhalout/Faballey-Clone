@@ -30,6 +30,6 @@ function final() {
         alert("Wrong Card No!");
         return;
     } else {
-        location.href = "../pages/success.html"
+        location.href = "./success.html"
     }
 }

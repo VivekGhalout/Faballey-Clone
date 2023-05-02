@@ -8,6 +8,7 @@
     border: 1px solid #CCCCCC;
     height: 36px;
     display: flex;
+    /* justify-content: space-between; */
     background-color: white;
 }
 
@@ -59,14 +60,7 @@
     align-items: center;
     text-align: center;
 }
-@media screen and (max-width: 400px) {
-    #nav-1-right>div:nth-child(1) {
-        display: none;
-    }
-    #nav-1-left {
-        display: none;
-    }
-}
+
 
 #nav-1-right>div>img {
     width: 65%;
@@ -99,6 +93,8 @@
 #nav-1-right>div>a:nth-child(5) {
     border: none;
 }
+
+
 
 /*nav-2 start here */
 
@@ -287,4 +283,198 @@
 
 #offer-nav>div:nth-child(2) {
     background-color: #f8c9c8;
+}
+
+#mobile {
+    display: none;
+}
+
+#close {
+    display: none;
+}
+
+#nav-1-right>div:nth-child(2).active{
+    right: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    #nav-1-right>div:nth-child(1) {
+        display: none;
+    }
+
+    #nav-1-left {
+        /* display: none; */
+    }
+
+    body {
+        margin: auto;
+    }
+
+    #main-footer {
+        /* display: none; */
+    }
+
+    #offer-nav>div {
+        width: 33.33%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10.5px;
+        font-weight: 600;
+        padding-top: 4px;
+        background-color: #ffe9e5;
+    }
+
+    #nav-input[type=text]:focus {
+        width: 195px;
+        outline: none;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
+    #nav-1-right>div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -210px;
+        height: 100vh;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 60px 0 0 20px;
+        transition: 0.3s;
+        border-radius: 15px 0px 0px 15px;
+        /* margin-top: 5px;
+        margin-bottom: -50px; */
+    }
+
+    #nav-1-right>div>a {
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #323232;
+        margin: 0 5px 0 5px;
+        padding-right: 7px;
+        margin-bottom: 25px;
+        border: none;
+    }
+    #nav-1-right{
+        /* width: 10px; */
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+    }
+    #mobile {
+        /* border: 1px solid red; */
+        padding-right: 10px;
+        display: flex;
+    }
+    #mobile > i {
+        color: #1a1a1a;
+        font-size: 24px;
+    }
+    #close {
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        color: #222;
+        font-size: 50px;
+    }
+}
+
+
+
+:root {
+
+    /**
+     * colors
+     */
+
+    --spanish-gray: hsl(0, 0%, 60%);
+    --sonic-silver: hsl(0, 0%, 47%);
+    --eerie-black: hsl(0, 0%, 13%);
+    --salmon-pink: hsl(353, 100%, 78%);
+    --sandy-brown: hsl(29, 90%, 65%);
+    --bittersweet: hsl(0, 100%, 70%);
+    --ocean-green: hsl(152, 51%, 52%);
+    --davys-gray: hsl(0, 0%, 33%);
+    --cultured: hsl(0, 0%, 93%);
+    --white: hsl(0, 100%, 100%);
+    --onyx: hsl(0, 0%, 27%);
+
+    /**
+     * typography
+     */
+
+    --fs-1: 1.563rem;
+    --fs-2: 1.375rem;
+    --fs-3: 1.25rem;
+    --fs-4: 1.125rem;
+    --fs-5: 1rem;
+    --fs-6: 0.938rem;
+    --fs-7: 0.875rem;
+    --fs-8: 0.813rem;
+    --fs-9: 0.75rem;
+    --fs-10: 0.688rem;
+    --fs-11: 0.625rem;
+
+    --weight-300: 300;
+    --weight-400: 400;
+    --weight-500: 500;
+    --weight-600: 600;
+    --weight-700: 700;
+
+    /**
+     * border-radius
+     */
+
+    --border-radius-md: 10px;
+    --border-radius-sm: 5px;
+
+    /**
+     * transition 
+     */
+
+    --transition-timing: 0.2s ease;
+
+}
+
+/*-----------------------------------*\
+  #REUSED STYLE
+\*-----------------------------------*/
+
+.container {
+    padding: 0 15px;
+}
+
+.has-scrollbar {
+    padding-bottom: 5px;
+}
+
+.has-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    /* for vertical scroll */
+    height: 12px;
+    /* for horizontal scroll */
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb {
+    background: transparent;
+    border: 3px solid var(--white);
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.has-scrollbar:hover::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 90%);
+}
+
+.has-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: hsl(0, 0%, 80%);
 }

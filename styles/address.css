@@ -162,14 +162,6 @@
     margin-top: 20px;
 }
 
-@media screen and (max-width: 850px) {
-    #address-mid-div {
-        width: 100%;
-        margin: auto;
-        margin-top: 20px;
-    }
-}
-
 #address-left-div {
     width: 55%;
 }
@@ -317,4 +309,48 @@
 #price-details-div > div > div:nth-child(2){
     font-size: 14px;
     color: #FC6486;
+}
+
+@media screen and (max-width: 850px) {
+    #address-mid-div {
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #address-input {
+        width: 97%;
+    }
+    #address-left-div {
+        width: 50%;
+    }
+    #address-right-div {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #email-div, #logo-div {
+        display: none;
+    }
+    #address-mid-div {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #address-left-div {
+        width: 90%;
+    }
+    #address-right-div {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #foot-div {
+        width: 95%;
+        margin: auto;
+        font-size: 13px;
+        margin-top: 40px;
+    }
 }

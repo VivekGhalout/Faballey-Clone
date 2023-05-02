@@ -151,5 +151,5 @@ function check() {
     }
 }
 document.getElementById("order-btn").addEventListener("click", () => {
-    location.href = "../pages/address.html"
+    location.href = "./address.html"
 })

@@ -140,7 +140,7 @@ function display_Pro(ele) {
     d_pincode.setAttribute("class", "d_pincode");
     var loc_img = document.createElement("img");
     loc_img.setAttribute("id", "loc_img")
-    loc_img.setAttribute("src", "../icons/location.png")
+    loc_img.setAttribute("src", "./icons/location.png")
     var address = document.createElement("p");
     address.setAttribute("id", "address");
     address.textContent = "Check Delivery Options ";
@@ -275,3 +275,20 @@ async function pincodeFunc() {
 
 document.getElementById("log").innerHTML = "Hi There.."
 document.getElementById("sign").innerHTML = "";
+
+
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const hemnav = document.getElementById('hem-nav');
+
+if (bar) {
+    bar.addEventListener("click", () => {
+        hemnav.classList.add('active');
+    })
+}
+
+if (close) {
+    close.addEventListener("click", () => {
+        hemnav.classList.remove('active');
+    })
+}

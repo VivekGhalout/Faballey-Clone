@@ -145,6 +145,7 @@
     color: #545454;
     font-size: 15px;
     margin-top: 40px;
+    padding-left: 2px;
 }
 
 #foot-div>div {
@@ -164,7 +165,7 @@
 
 @media screen and (max-width: 850px) {
     #pay-mid-div {
-        width: 100%;
+        width: 95%;
         margin: auto;
         margin-top: 20px;
     }
@@ -231,16 +232,24 @@
 }
 
 #left-2-div>div {
+    width: 80%;
+    margin: auto;
     display: flex;
-    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 25px;
 }
 
 #left-2-div>div>input {
     width: 55px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin-top: 10px;
     padding: 10px 0px 10px 10px;
     border: 1px solid #DCDCDC;
+}
+
+#left-2-div>div>input:focus {
+    outline: none;
 }
 
 #left-2-div>button {
@@ -338,4 +347,34 @@ padding-top: 10px;
 #price-details-div>div>div:nth-child(3) {
     font-size: 14px;
     color: #FC6486;
+}
+@media screen and (max-width: 400px) {
+    #email-div, #logo-div {
+        display: none;
+    }
+    #pay-mid-div {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    #pay-right-div {
+        margin-top: 40px;
+        width: 100%;
+    }
+    #pay-left-div {
+        width: 100%;
+    }
+    #left-1-div>p {
+        font-size: 12px;
+        font-weight: 500;
+        padding: 18px 0px 18px 5px;
+    }
+    #left-1-div>p:nth-child(1) {
+        font-weight: 550;
+        font-size: 12px;
+        padding: 20px 0px 18px 8px;
+    
+    }
 }

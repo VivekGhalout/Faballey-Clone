@@ -13,12 +13,16 @@ const navbar = () => {
                 <div>
                     <img src="https://img.faballey.com/images/luxelogo3blk.png" alt="">
                 </div>
-                <div>
+                <div id="hem-nav">
                     <a href="#">Track Order</a>
                     <a href="#"> Store Locator</a>
                     <a href="Login.html" id="log">Login</a>
-                    <a href="Register.html" id="sign"></a>
+                    <a href="Register.html" id="sign">Sign Up</a>
                     <a href="cart.html"><img src="https://img.icons8.com/ios/1x/shopping-bag.png" alt=""></a>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                </div>
+                <div id="mobile">
+                      <i id="bar" class="fas fa-outdent"></i>
                 </div>
             </div>
         </nav>
@@ -308,7 +312,7 @@ const main_footer = () => {
                 <div id="heading">
                     <p>NEWSLETTER SIGNUP</p>
                 </div>
-                <div style="margin-top: 20px;">
+                <div style="margin-top: 20px;" id="foo-search">
                     <input type="text" placeholder="Enter Email Address">
                     <button>SUBSCRIBE</button>
                 </div>

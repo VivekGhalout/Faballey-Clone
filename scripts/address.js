@@ -65,7 +65,7 @@ function setData() {
             address: address
         };
         localStorage.setItem("account-data", JSON.stringify(addressOdj));
-        location.href = "../pages/payment.html";
+        location.href = "./payment.html";
     }
 
 }

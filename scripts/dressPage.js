@@ -35,15 +35,23 @@ function displayData(data) {
         let proCard = document.createElement("div");
         proCard.setAttribute("id", "pro-card");
 
-        let ancor = document.createElement("a");
+        let mainImgDiv = document.createElement("div");
+        mainImgDiv.setAttribute("id", "main-img-div")
+        
 
         let proImg = document.createElement("img");
         proImg.src = ele.image_a;
         proImg.addEventListener("click", function() {
             pro_discrip(ele);
         })
+        let proImg2 = document.createElement("img");
+        proImg2.setAttribute("id", "top-img")
+        proImg2.src = ele.image_b;
+        proImg2.addEventListener("click", function() {
+            pro_discrip(ele);
+        })
 
-        ancor.append(proImg);
+        mainImgDiv.append(proImg, proImg2);
 
         let p = document.createElement("p");
         p.innerHTML = ele.pro_name;
@@ -95,7 +103,7 @@ function displayData(data) {
 
         btnDiv.append(wishBtn, bagBtn);
 
-        proCard.append(ancor, p, priceDiv, delevDiv, btnDiv);
+        proCard.append(mainImgDiv, p, priceDiv, delevDiv, btnDiv);
 
         document.getElementById("top-images").append(proCard);
     });
@@ -229,9 +237,25 @@ if(details.length === 0) {
 
 function pro_discrip(ele) {
     localStorage.setItem("iteam_details2", JSON.stringify(ele));
-    location.href = "../pages/proDiscription.html";
+    location.href = "./proDiscription.html";
 }
 
 
 document.getElementById("log").innerHTML = "Hi There.";
 document.getElementById("sign").innerHTML = "";
+
+const bar = document.getElementById('bar');
+const close = document.getElementById('close');
+const hemnav = document.getElementById('hem-nav');
+
+if (bar) {
+    bar.addEventListener("click", () => {
+        hemnav.classList.add('active');
+    })
+}
+
+if (close) {
+    close.addEventListener("click", () => {
+        hemnav.classList.remove('active');
+    })
+}
