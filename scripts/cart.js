@@ -131,7 +131,7 @@ function totalamount(data) {
     }, 0)
     document.getElementById("total-price-1").innerHTML = `₹${sum}`
     document.getElementById("total-price-2").innerHTML = `₹${sum}`
-
+    localStorage.setItem("cartvalue", sum);
 }
 totalamount(data)
 
@@ -140,13 +140,14 @@ document.getElementById("promo-submit").addEventListener("click", check)
 function check() {
 
     var ch = document.getElementById("promo").value;
-    if (ch == "masai30" || ch == "ghalout30") {
+    if (ch == "super20" || ch == "diwali30") {
         alert("30% off applied");
         //  document.getElementById("Offer").append(temp);
         sum = sum - ((sum * 3) / 10);
         document.getElementById("total-price-1").innerHTML = `₹${sum}`
         document.getElementById("total-price-2").innerHTML = `₹${sum}`
         localStorage.setItem("cartvalue", sum);
+        console.log(sum)
         document.getElementById("promo").value = "";
     }
 }

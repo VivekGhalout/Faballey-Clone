@@ -4,6 +4,7 @@ console.log(data)
 let sum = JSON.parse(localStorage.getItem("cartvalue"));
 document.getElementById("sub-price").innerHTML = "₹ " + sum;
 document.getElementById("total-price").innerHTML = "₹ " + sum;
+console.log(sum)
 
 
 showData(data);
